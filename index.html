@@ -1,0 +1,102 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>home</title>
+<link href="css-home.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.big_square, .small_square1, .small_square2, .small_square3, .small_square4, .big_square_, .small_square_1, .small_square_2, .small_square_3, .small_square_4').wrapInner('<span class="hover"></span>').css('textIndent','0')
+													.each(function () {
+				$('span.hover').css('opacity', 0).hover(function () {
+					$(this).stop().fadeTo(500, 1);
+				}, function () {
+					$(this).stop().fadeTo(500, 0);
+				});
+			});
+		});
+	</script>
+</head>
+
+<body>
+<div id="body">
+<div id="nav">
+	<ul>
+		<li><a href="home.html" style="color:#F29382">Home</a></li>
+		<li><a href="about_me.html">About Me</a></li>
+		<li><a href="design_informatics.html">Design Informatics</a></li>
+		<li><a href="product_design.html">Product Design</a></li>
+		<li><a href="material.html">Material</a></li>
+		<li><a href="articles.html">Articles</a></li>
+	</ul>
+</div>
+<div style="padding-top: 50px;">
+	<div class="abou_me_pic">
+		<img src="about_me.jpg" width="640" height="360" alt=""/>
+	</div>
+	<div class="title">
+		<h1><a href="about_me.html">Fangzhou Dong</a></h1>
+		<h1>Design for Informatics</h1>
+	</div>
+	<div class="about_me_left">
+		<p class="content">Design is concerned with how things work, how they are controlled, and the nature of the interaction between people and technology.</p>
+	</div>
+	<div class="about_me_right">
+		<p class="content">I finished my undergraduate in Dalian University of Technology in China. Currently, I am an MA student in the University of Edinburgh in the UK.</p>
+	</div>
+</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<hr style="width: 960px;"/>
+<br/><br/><br/><br/>
+<div style="height: 1020px">
+      	<p class="h3" style="margin-left: 56px; margin-top: 146px;">Design Informatics</p>
+		<p class="h2" style="margin-left: 56px; margin-top: 210px; width: 345px;">Can technology help to create a new social model to enhance communication with people around?</p>
+    <a href="communication.html" class="big_square" style="border-color: #69A177;">
+    <span class="hover"></span></a>
+		<p class="h3" style="margin-top: 70px; margin-left: 580px;">Arduino</p>
+		<p class="h2" style="margin-top: 110px; margin-left: 580px;">TiBot</p>
+	<a href="TiBot.html" class="small_square1" style="border-color: #F29382;"><span class="hover">
+	</span></a>
+		<p class="h3" style="margin-top: 70px; margin-left: 820px;">Material</p>
+		<p class="h2" style="margin-top: 110px; margin-left: 812px;">Leather</p>
+	<a href="Leather.html" class="small_square2" style="border-color: #F3D22A;"><span class="hover"></span>
+	</a>
+		<p class="h3" style="margin-top: 315px; margin-left: 565px;">Interaction</p>
+		<p class="h2" style="margin-top: 355px; margin-left: 525px;">Musical Car Set</p>
+	<a href="MusicalCar.html" class="small_square3" style="border-color: #A9B4B8;"><span class="hover"></span>
+	</a>
+		<p class="h3" style="margin-top: 315px; margin-left: 820px;">Material</p>
+		<p class="h2" style="margin-top: 355px; margin-left: 785px;">Digital Glass</p>
+	<a href="Glass.html" class="small_square4" style="border-color: #73C8E8;" ><span class="hover"></span>
+	</a>
+		<p class="h3" style="margin-left: 560px; margin-top: 605px;">Article</p>
+		<p class="h2" style="margin-left: 560px; margin-top: 670px; width: 345px;">Service Redesign: Bridging the Gap between Service Provider and Its User</p>
+	<a href="ServiceRedesign.html" class="big_square_" style="border-color: #F3D22A;"><span class="hover"></span>
+	</a>
+		<p class="h3" style="margin-top: 560px; margin-left: 310px;">VR Navigation</p>
+		<p class="h2" style="margin-top: 600px; margin-left: 325px;">TesGo</p>
+	<a href="TesGo.html" class="small_square_1" style="border-color: #F29382;"><span class="hover"></span>
+	</a>
+		<p class="h3" style="margin-top: 560px; margin-left: 90px;">Aticle</p>
+		<p class="h2" style="margin-top: 600px; margin-left: 80px;">EMind</p>
+	<a href="EMind.html" class="small_square_2" style="border-color: #73C8E8;"><span class="hover"></span>
+	</a>
+		<p class="h3" style="margin-top: 805px; margin-left: 318px;">CI Redesign</p>
+		<p class="h2" style="margin-top: 845px; margin-left: 292px;">ChickenFans</p>
+	<a href="ChickenFans.html" class="small_square_3" style="border-color: #69A177;"><span class="hover"></span>
+	</a>
+		<p class="h3" style="margin-top: 805px; margin-left: 80px;">UX Design</p>
+		<p class="h2" style="margin-top: 845px; margin-left: 77px;">Just Go</p>
+	<a href="JustGo.html" class="small_square_4" style="border-color: #A9B4B8;"><span class="hover"></span>
+	</a>
+</div>
+<div id="footer">
+	<hr style="width: 960px;"/>
+	<p style="float: left;">Designed and Developed by Fangzhou Dong</p>
+	<p style="float: right;"><a href="mailto: huaqidiewu@gmail.com">huaqidiewu@gmail.com</a></p>
+</div>
+<br/><br/><br/><br/><br/>
+</div>
+</body>
+</html>
