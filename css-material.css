@@ -1,0 +1,108 @@
+@charset "UTF-8";
+div#body{
+	width: 960px;
+	margin: 0 auto;
+}
+#nav {
+	height: 50px;
+	width: 1000px;
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+	padding-left: 120px;
+	padding-top: 10px;
+	color: #262626;
+	position: fixed;
+	background-color: white;
+	z-index: 20;
+	margin-top: -10px;
+}
+li {
+	list-style: none;
+	display: inline;
+	padding-right: 50px;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #262626;
+}
+a:hover{
+	color:#F29382 !important;
+}
+a:active{
+	color:#F29382 !important;
+}
+a:visited{
+	color: #262626;
+}
+.content{
+	font-family: Helvetica, Arial;
+	font-size: 13px;
+}
+.big_square1{
+	width: 455px;
+	height: 455px;
+	border: thin;
+	border-style: solid;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 33px;
+}
+.big_square1 span.hover{
+	position: absolute;
+	display: block;
+	width:455px;
+	height:455px;
+	background: url(resources/hide3-1.JPG) bottom no-repeat;
+}
+.big_square2{
+	width: 455px;
+	height: 455px;
+	border: thin;
+	border-style: solid;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 33px;
+}
+.big_square2 span.hover{
+	position: absolute;
+	display: block;
+	width:455px;
+	height:455px;
+	background: url(resources/hide5-1.JPG) bottom no-repeat;
+}
+#footer{
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+	color: #262626;
+	margin-bottom: 30px;
+}
+h1{
+	font-family: Helvetica, Arial;
+	font-size: 28px;
+	color: #262626;
+}
+.h2{
+	font-family: Helvetica, Arial;
+	font-size: 22px;
+	color: #262626;
+	position: absolute;
+}
+.h3{
+	font-family: Helvetica, Arial;
+	font-size: 15px;
+	color: #262626;
+	position: absolute;
+
+}
+#hide5{
+	display: none;
+	margin-top: 0;
+	position: absolute;
+}
+#hide3{
+	display: none;
+	margin-top: 0;
+	position: absolute;
+}

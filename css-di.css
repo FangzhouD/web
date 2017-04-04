@@ -1,0 +1,149 @@
+@charset "UTF-8";
+div#body{
+	width: 960px;
+	margin: auto;
+}
+#nav {
+	height: 50px;
+	width: 1000px;
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+	padding-left: 120px;
+	padding-top: 10px;
+	color: #262626;
+	position: fixed;
+	background-color: white;
+	z-index: 20;
+	margin-top: -10px;
+}
+li {
+	list-style: none;
+	display: inline;
+	padding-right: 50px;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: #262626;
+}
+a:hover{
+	color:#F29382 !important;
+}
+a:active{
+	color:#F29382 !important;
+}
+a:visited{
+	color: #262626;
+}
+.content{
+	font-family: Helvetica, Arial;
+	font-size: 13px;
+}
+.big_square{
+	width: 455px;
+	height: 455px;
+	border: thin;
+	border-style: solid;
+	float: left;
+	margin-left: 10px;
+	margin-bottom: 33px;
+}
+.big_square span.hover{
+	position: absolute;
+	display: block;
+	width:455px;
+	height:455px;
+	background: url(resources/hide6.JPG) bottom no-repeat;
+}
+.small_square1{
+	width: 210px;
+	height: 210px;
+	border: thin;
+	border-style: solid;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 33px;
+	text-align: center;
+}
+.small_square1 span.hover{
+	position: absolute;
+	display: block;
+	width:210px;
+	height:210px;
+	background: url(resources/hide2.JPG) bottom no-repeat;
+}
+.small_square2{
+	width: 210px;
+	height: 210px;
+	border: thin;
+	border-style: solid;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 33px;
+	text-align: center;
+}
+.small_square2 span.hover{
+	position: absolute;
+	display: block;
+	width:210px;
+	height:210px;
+	background: url(resources/hide10.JPG) bottom no-repeat;
+}
+.small_square3{
+	width: 210px;
+	height: 210px;
+	border: thin;
+	border-style: solid;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 33px;
+	text-align: center;
+}
+.small_square3 span.hover{
+	position: absolute;
+	display: block;
+	width:210px;
+	height:210px;
+	background: url(resources/hide1-1.JPG) bottom no-repeat;
+}
+.small_square4{
+	width: 210px;
+	height: 210px;
+	border: thin;
+	border-style: solid;
+	float: left;
+	margin-left: 30px;
+	margin-bottom: 33px;
+	text-align: center;
+}
+.small_square4 span.hover{
+	position: absolute;
+	display: block;
+	width:210px;
+	height:210px;
+	background: url(resources/hide7.JPG) bottom no-repeat;
+}
+#footer{
+	font-family: Helvetica, Arial;
+	font-size: 12px;
+	color: #262626;
+	margin-bottom: 30px;
+}
+h1{
+	font-family: Helvetica, Arial;
+	font-size: 28px;
+	color: #262626;
+}
+.h2{
+	position: absolute;
+	font-family: Helvetica, Arial;
+	font-size: 22px;
+	color: #262626;
+}
+.h3{
+	position: absolute;
+	font-family: Helvetica, Arial;
+	font-size: 15px;
+	color: #262626;
+}
